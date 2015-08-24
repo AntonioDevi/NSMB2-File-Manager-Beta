@@ -41,7 +41,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		return 0;
 	}
 
-	hwnd = CreateWindowEx(WS_EX_CLIENTEDGE,"WindowClass","Caption",WS_VISIBLE|WS_OVERLAPPEDWINDOW,
+	hwnd = CreateWindowEx(WS_EX_CLIENTEDGE,"WindowClass","New Super Mario Bros. 2 File Manager",WS_VISIBLE|WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT, /* x */
 		CW_USEDEFAULT, /* y */
 		640, /* width */
