@@ -26,7 +26,7 @@ void MainWindow::on_actionLoadROM_triggered()
     qDebug("load ROM");
 
     
-    QFile lol("C:/Documents/1-1.sarc");
+    QFile lol("C:/Users/Admin/Desktop/NSMB2 cia rebuild tools - Copy/NSMB2 cia rebuild tools/First/romfs/1-1.sarc");
     qDebug("%s", lol.exists()?"good":"bad");
 
     ExternalFilesystem* exfs = new ExternalFilesystem("C:/Documents");
